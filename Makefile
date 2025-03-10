@@ -11,7 +11,7 @@
 # **************************************************************************** #
 
 CC = cc -pthread
-CFLAGS = -Wall -Wextra -Werror -g
+CFLAGS = -Wall -Wextra -Werror -Wno-unused -g
 RM = rm -rf
 NAME = philo
 
