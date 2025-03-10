@@ -9,7 +9,7 @@ They must alternately eat, think and sleep.
 There are as many forks around the table as there are philosophers.
 To eat, they must take two forks from the table.
 When they've finished eating, they put the forks back on the table and start to sleep, then think and start again.
-The simulation ends when a philosopher dies.
+The simulation ends when a philosopher die.
 
 Passed as parameter, a time_to_die : it start a the beginning of the last meal and if they didn't eating before the end
 of that time a philosopher die.
