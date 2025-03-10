@@ -28,12 +28,12 @@ You can go to the directory for compilation and can do ```make```.
 
 The program take the following arguments:
 
-*<number_of_philosophers> : maximum 200 philosophers
-*<time_to_die> : in milliseconds
-*<time_to_eat> : in milliseconds
-*<time_to_sleep> : in milliseconds
-*<[number_of_times_each_philosopher_must_eat]> : an optional argument
- the is the number of meal by philosopher that the simulation need to stop.
+* <number_of_philosophers> : maximum 200 philosophers
+* <time_to_die> : in milliseconds
+* <time_to_eat> : in milliseconds
+* <time_to_sleep> : in milliseconds
+* <[number_of_times_each_philosopher_must_eat]> : an optional argument
+  the is the number of meal by philosopher that the simulation need to stop.
 
 for example:
 ```shell
