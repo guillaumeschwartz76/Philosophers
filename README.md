@@ -14,7 +14,7 @@ The simulation ends when a philosopher dies.
 Passed as parameter, a time_to_die : it start a the beginning of the last meal and if they didn't eating before the end
 of that time a philosopher die.
 
-## Installing and Compiling ft_PushSwap
+## Installing and Compiling Philosophers
 
 Clone the repository
 
@@ -24,7 +24,7 @@ https://github.com/guillaumeschwartz76/Philosophers.git
 
 You can go to the directory for compilation and can do ```make```.
 
-## Executing ft_PushSwap
+## Executing Philosophers
 
 The program take the following arguments:
 
