@@ -33,7 +33,7 @@ The program take the following arguments:
 * <time_to_eat> : in milliseconds
 * <time_to_sleep> : in milliseconds
 * <[number_of_times_each_philosopher_must_eat]> : an optional argument,
-  the is the number of meal by philosopher that the simulation need to stop.
+  the number of meal by philosopher that the simulation need to stop.
 
 for example:
 ```shell
