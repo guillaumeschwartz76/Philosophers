@@ -28,11 +28,11 @@ You can go to the directory for compilation and can do ```make```.
 
 The program take the following arguments:
 
- *<number_of_philosophers> : maximum 200 philosophers
- *<time_to_die> : in milliseconds
- *<time_to_eat> : in milliseconds
- *<time_to_sleep> : in milliseconds
- *<[number_of_times_each_philosopher_must_eat]> : an optional argument
+*<number_of_philosophers> : maximum 200 philosophers
+*<time_to_die> : in milliseconds
+*<time_to_eat> : in milliseconds
+*<time_to_sleep> : in milliseconds
+*<[number_of_times_each_philosopher_must_eat]> : an optional argument
  the is the number of meal by philosopher that the simulation need to stop.
 
 for example:
@@ -40,4 +40,25 @@ for example:
 ./philo 4 800 200 200 7
 ```
 
+the program display:
+
+* the timestamp in milliseconds
+* the philosopher number ...
+* the action
+
+```shell
+0 philo 2 has taken a fork
+0 philo 2 has taken a fork
+0 philo 2 is eating
+0 philo 4 has taken a fork
+0 philo 4 has taken a fork
+0 philo 4 is eating
+200 philo 2 is sleeping
+200 philo 1 has taken a fork
+201 philo 1 has taken a fork
+201 philo 1 is eating
+201 philo 4 is sleeping
+201 philo 3 has taken a fork
+201 philo 3 has taken a fork
+```
 
